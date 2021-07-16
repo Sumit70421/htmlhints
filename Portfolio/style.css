@@ -1,0 +1,210 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap'); */
+/* @font-face {
+    font-family: myCustomFont;
+    src: url('./Open_Sans/OpenSans-Bold.ttf');
+}
+.heading {
+    color: tomato;
+    font-family: myCustomFont;
+}
+#hello {
+    color: cornflowerblue;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* div {
+    font-size: 80%;
+    background: coral;
+}
+.em-1 {
+    font-size: 1em;
+}
+.rem-1 {
+    font-size: 2rem;
+}
+.px-1 {
+    font-size: 1px;
+}
+@media (max-width: 600px) {
+    .px-1 {
+        font-size: 10px;
+    }
+}
+@media (max-width: 425px) {
+    .px-1 {
+        font-size: 10px;
+    }
+}
+.active {
+    font-size: 30px !important;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
+body {
+    font-family: 'Sen', sans-serif !important;
+    background: black;
+}
+label {
+    font-family: 'Sen', sans-serif !important;
+}
+h1 {
+    font-size: 80px;
+    line-height: 80px;
+}
+h2 {
+    font-size: 55px;
+}
+.bg-transparent {
+    height: 100vh;
+}
+.bg-transparent div:nth-child(1) {
+    background: black;
+}
+.bg-transparent div:nth-child(2) {
+    background: rgb(24, 24, 35);
+}
+.main > div {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.main span {
+    color: rgba(255, 255, 255, 0.5);
+}
+.main .head-text-left {
+    margin-left: -50px;
+}
+.light-grey-color {
+    color: #8491a0;
+}
+.work .inner .work-numbers {
+    font-size: 7rem;
+    margin: 0;
+    display: inline;
+    line-height: 7rem;
+}
+.work .inner .work-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.article .text-content {
+    background-color: rgb(255, 243, 229);
+}
+.article img {
+    max-width: 100%;
+}
+.article p {
+    color: #5b6876;
+    font-size: 18px;
+    text-align: justify;
+}
+input, textarea {
+    background: #181823 !important;
+    border: none !important;
+    border-radius: unset !important;
+    color: white !important;
+}
+.contact form .custom-btn{
+    background-color: #5221e6;
+    color: white;
+}
+.navbar {
+    padding: 0 !important;
+    border-top: 6px solid #5221e6;
+}
+.nav-item:nth-child(3) {
+    background: #5221e6;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .main .head-text-left {
+        margin-left: auto;
+        margin-top: 0px !important;
+    }
+    .bg-transparent {
+        height: 90vh;
+    }
+    .main > div {
+        margin: 0px 30px;
+    }
+}
+
+.container2{
+    background-color: black;
+    font-family: 'Sen', sans-serif;
+    text-decoration: none;
+
+}
+.card{
+  background-color:#181823 ;
+}
+:root {
+--swatch_ee071111: hsla(0, 0%, 0%, 1);
+--swatch_1331962a: hsla(0, 0%, 100%, 1);
+--swatch_6ceeeb8f: #5221e6;
+--swatch_bcf49e07: hsla(180, 100%, 50%, 1);
+--swatch_e1fac37a: hsla(240, 18.64%, 11.57%, 1);
+--swatch_771f14ca: #8491a0;
+--swatch_fb8b8637: hsla(127.77, 55.38%, 50.78%, 1);
+--swatch_d84d32d6: #5b6876;
+}
+.w-button {
+display: inline-block;
+padding: 9px 15px;
+background-color: #3898EC;
+color: white;
+border: 0;
+line-height: inherit;
+text-decoration: none;
+cursor: pointer;
+border-radius: 0;
+}
+.wrapper{
+    background-color: blanchedalmond;
+}
+.div{
+    margin:1%;
+}
+.leftwrap{
+    
+    margin: 2%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+    div:nth-child(1){
+    background-color: ;
+    font-family: 'Sen', sans-serif;
+    
+    margin-bottom: 0%;
+    }
+    p:nth-child(1){
+        font-size: 55px;
+    }
+    p:nth-child(2){
+        font-size: 16px;
+    }
+    .link{
+      text-decoration: none;
+    }
+    .cta {
+padding: 24px 32px;
+border-style: solid;
+border-width: 1px;
+border-top-color: var(--swatch_6ceeeb8f);
+border-right-color: var(--swatch_6ceeeb8f);
+border-bottom-color: var(--swatch_6ceeeb8f);
+border-left-color: var(--swatch_6ceeeb8f);
+background-color: rgba(56, 152, 236, 0);
+transition-property: box-shadow, background-color, transform;
+font-weight: 700;
+}
+.nice{
+margin: 10% 0% 0% 25%;
+}
